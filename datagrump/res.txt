@@ -127,3 +127,105 @@ Average throughput: 5.00 Mbits/s (99.3% utilization)
 Listening on :::9090
 Window size: 276
 Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 1700 ms
+95th percentile signal delay: 2194 ms
+Listening on :::9090
+Window size: 276
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.03 Mbits/s (99.7% utilization)
+95th percentile per-packet queueing delay: 1688 ms
+95th percentile signal delay: 2179 ms
+Listening on :::9090
+Window size: 276
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.03 Mbits/s (99.7% utilization)
+95th percentile per-packet queueing delay: 1694 ms
+95th percentile signal delay: 2195 ms
+Listening on :::9090
+Window size: 414
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 2483 ms
+95th percentile signal delay: 3259 ms
+Listening on :::9090
+Window size: 414
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 2489 ms
+95th percentile signal delay: 3258 ms
+Listening on :::9090
+Window size: 414
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 2489 ms
+95th percentile signal delay: 3215 ms
+Listening on :::9090
+Window size: 621
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 3463 ms
+95th percentile signal delay: 4561 ms
+Listening on :::9090
+Window size: 621
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 3469 ms
+95th percentile signal delay: 4555 ms
+Listening on :::9090
+Window size: 621
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 3446 ms
+95th percentile signal delay: 4566 ms
+Listening on :::9090
+Window size: 931
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 5223 ms
+95th percentile signal delay: 6343 ms
+Listening on :::9090
+Window size: 931
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 5226 ms
+95th percentile signal delay: 6341 ms
+Listening on :::9090
+Window size: 931
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 2.98 Mbits/s (59.0% utilization)
+95th percentile per-packet queueing delay: 4871 ms
+95th percentile signal delay: 59884 ms
+Listening on :::9090
+Window size: 1000
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 5634 ms
+95th percentile signal delay: 6657 ms
+Listening on :::9090
+Window size: 1000
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 5579 ms
+95th percentile signal delay: 6655 ms
+Listening on :::9090
+Window size: 1000
+Sending to 100.64.0.1:9090
+Average capacity: 5.04 Mbits/s
+Average throughput: 5.04 Mbits/s (100.0% utilization)
+95th percentile per-packet queueing delay: 5610 ms
+95th percentile signal delay: 6631 ms
