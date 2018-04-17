@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from collections import defaultdict
+import math
 
 y = defaultdict(float)
 x = defaultdict(float)
@@ -18,14 +19,15 @@ avg = list()
 for z in set([p[0] for p in points]):
 	avg.append((z,y[z],x[z]))
 
-z,y,x = [p[0] for p in avg], [p[1] for p in avg], [p[2] for p in avg]
-fig, ax = plt.subplots()
-print x
-print y
-print z
-ax.scatter(x,y)
 
-for X, Y, Z in zip(x, y, z):
+z,throughput,delay = [p[0] for p in avg], [p[1] for p in avg], [p[2] for p in avg]
+fig, ax = plt.subplots()
+for p in avg:
+	print p[2]
+	print 'Size:{} Score:{}'.format(p[0], math.log(p[1])/(p[2]*0.001))
+ax.scatter(delay,throughput)
+
+for X, Y, Z in zip(delay, throughput, z):
     # Annotate the points 5 _points_ above and to the left of the vertex
     ax.annotate('{}'.format(Z), xy=(X,Y), xytext=(5, 5), ha='right',
                 textcoords='offset points')
