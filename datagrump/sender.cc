@@ -31,7 +31,7 @@ private:
 
 public:
   DatagrumpSender( const char * const host, const char * const port,
-		   const bool debug );
+		   const bool debug, const int window_size );
   int loop();
 };
 
@@ -43,26 +43,27 @@ int main( int argc, char *argv[] )
   }
 
   bool debug = false;
-  if ( argc == 4 and string( argv[ 3 ] ) == "debug" ) {
+  if ( argc == 5 and string( argv[ 4 ] ) == "debug" ) {
     debug = true;
-  } else if ( argc == 3 ) {
+  } else if ( argc == 4 ) {
     /* do nothing */
+    cerr << "Window size: " << argv[3] << endl;
   } else {
-    cerr << "Usage: " << argv[ 0 ] << " HOST PORT [debug]" << endl;
+    cerr << "Usage: " << argv[ 0 ] << " HOST PORT WINDOW [debug]" << endl;
     return EXIT_FAILURE;
   }
 
   /* create sender object to handle the accounting */
   /* all the interesting work is done by the Controller */
-  DatagrumpSender sender( argv[ 1 ], argv[ 2 ], debug );
+  DatagrumpSender sender( argv[ 1 ], argv[ 2 ], debug, atoi(argv[ 3 ]));
   return sender.loop();
 }
 
 DatagrumpSender::DatagrumpSender( const char * const host,
 				  const char * const port,
-				  const bool debug )
+				  const bool debug , const int window_size)
   : socket_(),
-    controller_( debug ),
+    controller_( debug, window_size ),
     sequence_number_( 0 ),
     next_ack_expected_( 0 )
 {
