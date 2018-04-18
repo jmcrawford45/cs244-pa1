@@ -2,6 +2,7 @@
 #define CONTROLLER_HH
 
 #include <cstdint>
+#include <queue> 
 
 /* Congestion controller interface */
 
@@ -9,8 +10,16 @@ class Controller
 {
 private:
   bool debug_; /* Enables debugging output */
-
-  /* Add member variables here */
+  float the_window_size;
+  bool slow_start;
+  bool dir_up;
+  float rtt_estimate;
+  float rtt_smoothing;
+  unsigned int velocity;
+  unsigned int last_window;
+  float rtt_min;
+  unsigned int outstanding_acks;
+  std::deque<float> rtt;
 
 public:
   /* Public interface for the congestion controller */
